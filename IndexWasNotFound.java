@@ -13,7 +13,7 @@ public class IndexWasNotFound {
         array[6] = 9;
         array[7] = 7;
 
-        System.out.print("Search for? ");
+        System.out.print("Search for?");
         int searching = Integer.valueOf(scanner.nextLine());
 
         boolean found = false;
@@ -26,7 +26,7 @@ public class IndexWasNotFound {
         }
 
         if (!found) {
-            System.out.println(searching + " was not found.");
+            System.out.println(searching + " was not found!");
         }
 
         scanner.close();
