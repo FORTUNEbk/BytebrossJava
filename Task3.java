@@ -10,9 +10,9 @@ public class Task3 {
         System.out.print("Enter the end number: ");
         int end = Integer.valueOf(scanner.nextLine());
 
-        System.out.println("Count of numbers: " + count(start, end));
-        System.out.println("Sum of numbers: " + sum(start, end));
-        System.out.println("Factorial of the sum: " + factorial(sum(start, end)));
+        System.out.println("Count of numbers is: " + count(start, end));
+        System.out.println("Sum of numbers is: " + sum(start, end));
+        System.out.println("Factorial of the sum is: " + factorial(sum(start, end)));
 
     }
 
@@ -42,6 +42,7 @@ public class Task3 {
 
         }
         return factorial;
+
     }
 
 }
