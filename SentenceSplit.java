@@ -10,7 +10,7 @@ public class SentenceSplit {
 
         String[] words = sentence.split(" ");
 
-        System.out.println("Words in the sentence:");
+        System.out.println("Words in the sentence: ");
         for (String word : words) {
             System.out.println(word);
         }
@@ -26,7 +26,7 @@ public class SentenceSplit {
         if (javaFound) {
             System.out.println("The word 'Java' is present in the sentence.");
         } else {
-            System.out.println("The word 'Java' is not present in the sentence.");
+            System.out.println("The word 'Java' is not present in the sentence!");
         }
 
         String longestWord = "";
