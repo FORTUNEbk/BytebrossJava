@@ -32,7 +32,7 @@ public class Array {
         if (containsNumber) {
             System.out.println("Number " + number + " is found in the list.");
         } else {
-            System.out.println("Number " + number + " is not found in the list.");
+            System.out.println("Number " + number + " is not found in the list!");
         }
     }
 
