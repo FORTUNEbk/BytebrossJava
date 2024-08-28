@@ -1,4 +1,4 @@
-public class BinarySearchExample {
+public class BinarySearch{
 
     public static int findFirstOccurrence(int[] arr, int target) {
         int left = 0;
@@ -18,7 +18,7 @@ public class BinarySearchExample {
             }
         }
 
-        return -1;
+        return result;
     }
 
     public static void main(String[] args) {
