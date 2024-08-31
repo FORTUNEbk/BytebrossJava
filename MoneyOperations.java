@@ -1,7 +1,7 @@
 public class MoneyOperations {
     public static void main(String[] args) {
 
-        money mon = new money(300 ,200);
+        money mon = new money(300 ,400);
         System.out.println("Sum" + mon.sum());
         System.out.println("Comparison" + mon.comparison());
         System.out.println("Subtraction" + mon.subtraction());

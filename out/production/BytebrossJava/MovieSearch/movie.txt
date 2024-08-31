@@ -1,0 +1,8 @@
+Title,Release Year,Genre
+The Shawshank Redemption,1994,Drama
+The Shawshank Redemption,1994,Crime
+The Godfather,1972,Crime
+The Godfather,1972,Drama
+Pulp Fiction,1994,Crime
+Pulp Fiction,1994,Drama
+Pulp Fiction,1994,Thriller
