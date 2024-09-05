@@ -1,10 +1,10 @@
-package com.example.CrudOperations;
+package com.fortuneprac.CrudOperation;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class CrudOperationsApplicationTests {
+class CrudOperationApplicationTests {
 
 	@Test
 	void contextLoads() {

@@ -1,13 +1,13 @@
-package com.example.CrudOperations;
+package com.fortuneprac.CrudOperation;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class CrudOperationsApplication {
+public class CrudOperationApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(CrudOperationsApplication.class, args);
+		SpringApplication.run(CrudOperationApplication.class, args);
 	}
 
 }
