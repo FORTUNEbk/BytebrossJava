@@ -7,8 +7,9 @@ public class LiquidContainer {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         ContainerOperations containerOps = new ContainerOperations();
+        boolean run = true;
 
-        while (true) {
+        while (run) {
             System.out.println("Welcome to the Liquid Container Registry!");
             System.out.println("1. Add a Liquid Container");
             System.out.println("2. Calculate the Average Volume");
@@ -42,8 +43,8 @@ public class LiquidContainer {
                     break;
                 case 7:
                     System.out.println("Exiting...");
-                    scanner.close();
-                    return;
+                    run = false;
+                    break;
                 default:
                     System.out.println("Invalid option. Please try again.");
                     break;

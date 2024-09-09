@@ -1,7 +1,6 @@
 package LiquidContainerRegistry;
 
 import java.util.HashMap;
-import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class ContainerOperations {
@@ -48,7 +47,7 @@ public class ContainerOperations {
     public void calculateAverageVolume() {
         if (storage.isEmpty()) {
             System.out.println("No containers available to calculate.");
-            return;
+            
         }
 
         double totalVolume = 0.0;
