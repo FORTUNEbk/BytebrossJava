@@ -52,10 +52,10 @@ public class Processor {
     public static void main(String[] args) {
         List<String> userData = Arrays.asList(
                 "Alice:ADMIN:123-456",
-                "Bob:USER:789-012",
-                "Charlie:GUEST:111-111",
+                "Anne:USER:789-012",
+                "Greg:GUEST:111-111",
                 "Eve:UNKNOWN:123-456",
-                "Mallory:ADMIN:12-34X"
+                "James:ADMIN:12-34X"
         );
 
         List<String> result = formatUserData(userData);
