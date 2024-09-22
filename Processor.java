@@ -42,7 +42,8 @@ public class Processor {
                     formatted.append("User: ").append(name).append(" (").append(role).append("), ID: ").append(id);
                     formattedUsers.add(formatted.toString());
                 }
-            } catch (IllegalArgumentException e) {
+            } catch (Exception e) {
+                continue;
             }
         }
 
