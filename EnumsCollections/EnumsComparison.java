@@ -1,4 +1,4 @@
-package EnumsCollections;
+s Operations "package EnumsCollections;
 
 public class EnumsComparison {
     enum Transport{
